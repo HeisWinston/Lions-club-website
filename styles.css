@@ -63,7 +63,7 @@ pre {
   height: 40px;
   z-index: 999;
   position: relative;
-  top: -10px
+  top: -50px
 }
 
 .navbar ul {
@@ -73,7 +73,7 @@ pre {
 .navbar h1 {
     background-color: #1c3fa8;
     padding: 10px;
-    bottom: 10px;
+    bottom: 20px;
     
   }
 
