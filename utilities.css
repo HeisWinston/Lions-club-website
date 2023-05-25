@@ -1,3 +1,37 @@
+/*calendar*/
+iframe {
+ position: relative;
+  z-index: 1;
+  margin-top: 40px; /* Adjust the value as per your desired spacing */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 40px;
+  z-index: 9999;
+  position: relative;
+  top: -50px
+}
+
+.navbar ul {
+  display: flex;
+
+}
+
+.navbar h1 {
+   
+    padding: 10px;
+    bottom: 20px;
+    
+  }
+
+.navbar a {
+  color: #000000;
+  padding: 10px;
+  margin: 0 5px;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -5,6 +39,30 @@
     padding: 0 40px;
   }
   
+
+/*footer*/
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-facebook:hover {
+  color: #1773EA;
+}
+
+.fa-instagram:hover {
+  color: #B32E87;
+}
+
+.fa-twitter:hover {
+  color: #1C9CEA;
+}
+
+
+
   .card {
     background-color: #fff;
     color: #333;
@@ -64,7 +122,7 @@
   .btn-secondary a,
   .bg-dark a,
   .btn-dark a {
-    color: #fff;
+    color: #000000;
   }
   
   /* Text colors */
@@ -137,6 +195,7 @@
     align-items: center;
     height: 100%;
   }
+
   
   .grid {
     display: grid;
@@ -231,4 +290,12 @@
   
   .p-5 {
     padding: 4rem;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .navbar a{
+      color: #000000
+    }
   }
